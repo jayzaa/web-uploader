@@ -6,10 +6,11 @@ Try as your own responsibility
 Example HTML file to use as upload form (dummy cookie for username, js for fetch visitor IP)
 ## Tested Platform
 Ubuntu 24.04 LTS (AlibabaCloud)
-AlibabaCloud Region
-Region: ap-southeast-7 (Thailand - Bangkok)
-AWS Region
-Region: ap-southeast-7 (Thailand - Bangkok)
+
+- AlibabaCloud Region
+  -Region: ap-southeast-7 (Thailand - Bangkok)
+- AWS Region
+  -Region: ap-southeast-7 (Thailand - Bangkok)
 
 ## Contributing
 
