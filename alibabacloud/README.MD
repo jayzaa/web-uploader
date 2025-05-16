@@ -42,6 +42,8 @@ OSS_PROTOCOL=https
 
 ## Compilation for test
 
+once finished test, go live by final compile
+
 ```bash
 go run main.go
 ```
