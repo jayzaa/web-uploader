@@ -1,4 +1,4 @@
-# Uploader Backend API for AlibabaCloud Object Storage
+# Uploader Backend API for AWS S3
 
 Make sure that you install go compiler version more than 1.8 
 
