@@ -1,12 +1,12 @@
 # API Uploader for AWS S3 and AlibabaCloud OSS
-
+## Warning
 Try as your own responsibility
 
-# Included
-## Example HTML file to use as upload form (dummy cookie for username, js for fetch visitor IP)
+## Included
+Example HTML file to use as upload form (dummy cookie for username, js for fetch visitor IP)
 
 
-
+## Prerequisites
 Make sure that you install go compiler version more than 1.8 
 
 If some path missing or need to run go get, run it.
