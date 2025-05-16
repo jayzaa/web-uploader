@@ -24,6 +24,10 @@ To Do
 Create OSS Bucket
 Get region / bucket name / accesskey / secretkey 
 
+### Ensure that
+1. Your access key have least privileges (GetObjects / PutObjects)
+2. Allow Public to access OSS (if you will use only internal, no need)
+
 ## Setup Secret File
 ```text
 APP_ADDRESS={listen address , default 127.0.0.1}
