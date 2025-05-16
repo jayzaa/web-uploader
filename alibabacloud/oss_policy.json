@@ -1,0 +1,74 @@
+{
+  "Version": "1",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "oss:GetObject",
+        "oss:PutObject"
+      ],
+      "Principal": [
+        "{system-generated}"
+      ],
+      "Resource": [
+        "acs:oss:*:{alibabacloud-main-account-id}:{bucket-name}/*"
+      ],
+      "Condition": {
+        "Bool": {
+          "acs:SecureTransport": ["true"]
+        },
+        "IpAddress": {
+          "acs:SourceIp": ["{source-ip}"]
+        },
+        "StringEquals": {
+          "acs:SourceVpc": ["{vpc-id}"]
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "oss:ListObjects",
+        "oss:GetObject"
+      ],
+      "Principal": [
+        "{system-generated}"
+      ],
+      "Resource": [
+        "acs:oss:*:{alibabacloud-main-account-id}:{bucket-name}"
+      ],
+      "Condition": {
+        "StringLike": {
+          "oss:Prefix": ["*"]
+        },
+        "Bool": {
+          "acs:SecureTransport": ["true"]
+        },
+        "IpAddress": {
+          "acs:SourceIp": ["{source-ip}"]
+        },
+        "StringEquals": {
+          "acs:SourceVpc": ["{vpc-id}"]
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "oss:GetObject"
+      ],
+      "Principal": [
+        "*"
+      ],
+      "Resource": [
+        "acs:oss:*:{alibabacloud-main-account-id}:{bucket-name}",
+        "acs:oss:*:{alibabacloud-main-account-id}:{bucket-name}/*"
+      ],
+      "Condition": {
+        "Bool": {
+          "acs:SecureTransport": ["true"]
+        }
+      }
+    }
+  ]
+}
