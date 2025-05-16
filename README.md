@@ -5,6 +5,21 @@ Try as your own responsibility
 ## Included
 Example HTML file to use as upload form (dummy cookie for username, js for fetch visitor IP)
 
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+Looking for hybrid provider in single binary
+
+## License
+
+No License. However, if you are looking for cloud provider. Simply register by my referal link
+
+[AlibabaCloud]https://www.alibabacloud.com/campaign/benefits?referral_code=A9ESHA
+
 
 ## Prerequisites
 Make sure that you install go compiler version more than 1.8 
@@ -77,16 +92,4 @@ App will run at provided address:port
     }
 ```
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-Looking for hybrid provider in single binary
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
